@@ -1,32 +1,7 @@
-/*------------------------------------------------------------------
-ver 1.1
-
-[Table of contents]
-1. Global CSS
-        1.1 Global Header Logo/Menu CSS	
-2. Blog Page CSS
-3. General Page CSS
-4. About Page CSS
-5. Single Post CSS
-6. Archive Page CSS
-7. Search Page CSS
-8. Portfolio (Home) Page CSS
-        8.1 Portfolio Single Post CSS
-9. Gallery Page CSS
-        9.1 Gallery Single Post CSS
-10. Contact Page CSS
-11. Footer CSS
-12. Responsive CSS
--------------------------------------------------------------------*/
-
-
-/* ===================================
-    1. Global CSS
-====================================== */
 body
 {
     font-family: 'Roboto', serif;
-    font-size: 17px; 	
+    font-size: 12px; 	
     line-height: 35px;
     font-weight: 400;	
     color: #000;
@@ -42,7 +17,7 @@ body a
 
 body a:hover
 {
-    color: #d7b065;
+    color: blue;
 }
 
 ::selection 
@@ -1063,14 +1038,17 @@ body a:hover
 
 .grid-item.quote-item
 {
-    font-family: 'Playfair Display', serif;
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
     width: 400px;
-    font-size: 40px;
-    line-height: 60px;
-    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+	color: black;
 }
 
-.grid-item.quote-item:before 
+
+
+/*.grid-item.quote-item:before 
 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -1078,10 +1056,10 @@ body a:hover
     content: "\201C";
     font-size: 470px;
     line-height: 100%;
-    color: #fae3b5;
+    color: red;
     margin-bottom: -346px;
     margin-top: -50px;
-}
+}*/
 
 .grid 
 {
@@ -1139,7 +1117,7 @@ body a:hover
     bottom: 30px;
     right: 30px;
     font-size: 20px;
-    background-color: white;
+    background-color: blue;
     text-align: center;   
     opacity: 0;    
     transition: opacity 0.3s ease-out;
@@ -1148,8 +1126,12 @@ body a:hover
 .portfolio-text-holder .portfolio-text
 {
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
-    line-height: 100%;
+    font-size: 15px;
+    line-height: 150%;
+	color: white;
+	text-align: justify;
+	margin: 20px;
+	
 }
 
 .portfolio-text-holder .portfolio-text:hover + p +  .portfolio-arrow a img
@@ -2261,3 +2243,32 @@ li.social-footer a:first-child
     }    
 
 }
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: blue;
+  color: #fff;
+  text-align: left;  
+  padding: 5px 0;
+	
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
