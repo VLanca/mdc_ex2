@@ -1040,10 +1040,11 @@ body a:hover
 {
     font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
     width: 400px;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 20px;
-    text-align: justify;
+    text-align: left;
 	color: black;
+	line-height: normal;
 }
 
 
@@ -1112,10 +1113,10 @@ body a:hover
 .portfolio-text-holder
 {
     position: absolute;
-    top: 30px;
-    left: 30px;
-    bottom: 30px;
-    right: 30px;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
     font-size: 20px;
     background-color: blue;
     text-align: center;   
@@ -1129,7 +1130,7 @@ body a:hover
     font-size: 15px;
     line-height: 150%;
 	color: white;
-	text-align: justify;
+	text-align: left;
 	margin: 20px;
 	
 }
@@ -1566,7 +1567,7 @@ body a:hover
     11. Footer CSS
 ====================================== */
 
-footer ul 
+/*footer ul 
 {
     list-style: none;
     padding-left: 0;
@@ -1640,7 +1641,7 @@ footer ul
 {
     border-bottom: 1px solid;
 }
-
+*/
 .our-position-holder
 {
     font-family: 'Playfair Display', serif;
@@ -2249,6 +2250,7 @@ li.social-footer a:first-child
 .tooltip {
   position: relative;
   display: inline-block;
+	
   
 }
 
@@ -2259,6 +2261,7 @@ li.social-footer a:first-child
   color: #fff;
   text-align: left;  
   padding: 5px 0;
+	
 	
 
   /* Position the tooltip */
@@ -2271,4 +2274,29 @@ li.social-footer a:first-child
 }
 
 
+/**/
+p.intro{
+	
+  width: 800px; 
+  border: 1px solid white;
+	text-align: justify;
+   display: block;
+   /* font-family:'Times New Roman', 'serif';
+    font-weight: 400;    
+    font-size: 25px;
+    line-height: 44px;*/
+	
+}
 
+
+
+
+
+p.q{
+	text-align: left;
+	color: blue;
+	font-size: 30px;
+	line-height: 1.0;
+	
+	
+}

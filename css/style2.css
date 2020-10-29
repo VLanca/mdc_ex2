@@ -1566,6 +1566,9 @@ body a:hover
     margin-left: 0;
 }*/
 
+
+/*
+
 .footer
 {
     font-size: 15px;
@@ -1635,6 +1638,8 @@ body a:hover
     border-bottom: 1px solid;
 }
 
+
+*/
 .our-position-holder
 {
     font-family: 'Playfair Display', serif;
@@ -2283,5 +2288,33 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     margin-bottom: 0;
 }
 
+
+p.intro{
+	
+  width: 1000px; 
+  border: 1px solid white;
+	text-align: center;
+   display: block;
+	color: white;
+   /* font-family:'Times New Roman', 'serif';
+    font-weight: 400;    
+    font-size: 25px;
+    line-height: 44px;*/
+	background: blue;
+}
+
+
+
+u.sub{
+	text-decoration: underline;
+    text-decoration-color: blue;
+	text-underline-position: under;
+	
+	
+}
+	
+	
+
+	
 
 
