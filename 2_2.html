@@ -24,13 +24,19 @@
 
     </head>
     <body class="page">
-		<div class="header-holder center-relative relative content-1140">
+		   <div class="header-holder center-relative relative content-1140">
             <div class="header-logo center-text">
-                <a href="index.html">
-                    <p align="center">simulação & interação</p>
+                <a href="2_3_.html">
+                    <p>simulação & interação</p>
                 </a> 
-				
+				<button type="button" class="collapsible"><font color="blue">+</font></button>
+<div class="content">
+  <p class="entry-title">Krueger, artista pioneiro em <i>Responsive Enviraments</i>, procurou desenvolver uma pesquisa que consistia na exploração de novos meios em que a participação do público é ativa. Os ambientes responsivos utilizam o uso da tecnologia sensorial e computicional reconhecendo os movimentos humanos. Em <i>Computer Lib/Dream Machines</i>, de Ted Nelson são dois livros, costas com costas. <i>Computer Lib</i> aborda o funcionamento interno do computador para leigos. E <i>Dream Machines</i>, discute o potencial dos computadores. O conjunto dos dois textos aborda a máquina e a ligação que tem com o homem, ou seja, mudar a ideia que os sistemas e as máquinas possam ser acessíveis para qualquer pessoa e interativas, em que o público possa interagir.</p>
+          
+            <br>
             </div>
+<div class="clear"></div>	
+        </div>
 		
 				
 
@@ -94,7 +100,17 @@
                     </div>
                 </li>
 				
-				
+			<!--	  <div class="centered">
+	  <h1 class="entry-title">
+               Krueger, artista pioneiro em <i>Responsive Enviraments</i>, procurou desenvolver uma pesquisa que consistia na exploração de novos meios em que a participação do público é ativa. Os ambientes responsivos utilizam o uso da tecnologia sensorial e computicional reconhecendo os movimentos humanos. Em <i>Computer Lib/Dream Machines</i>, de Ted Nelson são dois livros, costas com costas. <i>Computer Lib</i> aborda o funcionamento interno do computador para leigos. E <i>Dream Machines</i>, discute o potencial dos computadores. O conjunto dos dois textos aborda a máquina e a ligação que tem com o homem, ou seja, mudar a ideia que os sistemas e as máquinas possam ser acessíveis para qualquer pessoa e interativas, em que o público possa interagir.</h1> -->
+	  
+	  	    	  	 
+	  <!-- div class="hover-title"><u class="sub">maze</u></div><div class="hover-image"><img src="images/maze.jpg"></div> -->
+
+	  
+	  
+	  
+  </div>
 				
 			
 			
@@ -117,16 +133,16 @@
    
 				             
 	             <li class="grid-item element-item quote-item animate">
-              <!--   <font color="blue" size="18" align="left"><b>"interaction is mediated by the machine"</b></font> -->
-					 <p class="q">"interaction is mediated by the machine"</p>
-				
+               <font color="blue" size="18" align="left"><b>"interaction is mediated by the machine"</b></font> 
+					<!-- <p class="q">"interaction is mediated by the machine"</p> -->
+
 				</div></li>
 	
-	
+	<!--
 	<center> <p class="intro" align="left"><font color="blue">Krueger, artista pioneiro em <i>Responsive Enviraments</i>, procurou desenvolver uma pesquisa que consistia na exploração de novos meios em que a participação do público é ativa. Os ambientes responsivos utilizam o uso da tecnologia sensorial e computicional reconhecendo os movimentos humanos. Em <i>Computer Lib/Dream Machines</i>, de Ted Nelson são dois livros, costas com costas. <i>Computer Lib</i> aborda o funcionamento interno do computador para leigos. E <i>Dream Machines</i>, discute o potencial dos computadores. O conjunto dos dois textos aborda a máquina e a ligação que tem com o homem, ou seja, mudar a ideia que os sistemas e as máquinas possam ser acessíveis para qualquer pessoa e interativas, em que o público possa interagir.</font></p>   </center>
 	
 	
-	
+	-->
 	
 
 	<li class="grid-item element-item quote-item animate">
@@ -176,9 +192,10 @@
 					
 					
 				
-                
-          
-            
+      <!--          <h1 class="entry-title">					
+            Krueger, artista pioneiro em <i>Responsive Enviraments</i>, procurou desenvolver uma pesquisa que consistia na exploração de novos meios em que a participação do público é ativa. Os ambientes responsivos utilizam o uso da tecnologia sensorial e computicional reconhecendo os movimentos humanos. Em <i>Computer Lib/Dream Machines</i>, de Ted Nelson são dois livros, costas com costas. <i>Computer Lib</i> aborda o funcionamento interno do computador para leigos. E <i>Dream Machines</i>, discute o potencial dos computadores. O conjunto dos dois textos aborda a máquina e a ligação que tem com o homem, ou seja, mudar a ideia que os sistemas e as máquinas possam ser acessíveis para qualquer pessoa e interativas, em que o público possa interagir. </h1>   -->
+
+										
 
         <!--Footer-->
 
@@ -197,7 +214,27 @@
 			</footer>
 	
 	
-	
+		<script>
+			
+			var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+			
+			
+			
+			</script>
+			
 	
 
 
