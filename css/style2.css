@@ -22,7 +22,9 @@ body a:hover
 
 ::selection 
 {
-    background-color: blue;
+    background-color: mediumvioletred;
+	
+	/*orangered*/
 }
 
 .body-wrapper

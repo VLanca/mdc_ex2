@@ -24,7 +24,9 @@ body a:hover
 
 ::selection 
 {
-    background-color: #fae3b5;
+    background-color: mediumvioletred;
+	
+	/*orangered*/
 }
 
 .body-wrapper
@@ -1571,7 +1573,7 @@ body a:hover
     11. Footer CSS
 ====================================== */
 
-footer ul 
+/*footer ul 
 {
     list-style: none;
     padding-left: 0;
@@ -1645,6 +1647,7 @@ footer ul
 {
     border-bottom: 1px solid;
 }
+*/
 
 .our-position-holder
 {
@@ -2385,3 +2388,106 @@ li.social-footer a:first-child
   color: blue;
 	
 }
+
+
+
+/* Popup box BEGIN 
+.hover_bkgr_fricc{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid blue;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: blue;
+	color:white;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* Popup box BEGIN */
+
+
+
+/**/
+
+.collapsible {
+ background-color: white; 
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+ /* width: 100%;*/
+  border: none;
+  /*text-align: left;*/
+  outline: none;
+  
+	
+	  font-family: 'Playfair Display', serif;    
+    font-size: 47px;
+    /*line-height: 60px;*/
+    font-weight: 400;
+   /* max-width: 650px;*/
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.active, .collapsible:hover {
+/*  background-color: whitesmoke;*/
+	
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+ /* background-color: #f1f1f1;*/
+	color: dimgrey; 
+}
+
+
