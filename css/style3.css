@@ -2545,3 +2545,16 @@ u.sub{
 	
 	
 }
+
+/*footer1*/
+
+.footer1 {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blue;
+   color: white;
+   text-align: center;
+	font-size: 10px;
+}
