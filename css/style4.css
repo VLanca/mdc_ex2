@@ -9,6 +9,7 @@ body
 	
 	
 	
+	
 }
 
 body a
@@ -18,6 +19,7 @@ body a
     transition: color .2s linear;
 	 float: center;
 	display: inline-block;
+	white-space: nowrap;
 	
 	
 	
@@ -28,7 +30,8 @@ body a:hover
 {
     color: blue;
 	/*display: inline-block;*/
-	width:100px;
+	width:150x;
+	/*white-space: nowrap;*/
 	
 	
 }

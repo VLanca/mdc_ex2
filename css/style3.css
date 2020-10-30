@@ -305,7 +305,7 @@ body a:hover
 
 .main-menu.sm-clean a:hover 
 {
-    color: #d7b065;
+    color: mediumvioletred;
 }
 
 #header-main-menu .search-form
@@ -449,13 +449,13 @@ body a:hover
 
 .slick-dots li:hover button:before
 {
-    background-color: #d7b065;
+    background-color: mediumvioletred;
     opacity: 0.3;
 }
 
 .slick-dots li.slick-active button:before
 {
-    background-color: #d7b065;
+    background-color: mediumvioletred;
 }
 
 
@@ -707,7 +707,7 @@ body a:hover
 {    
     position: relative;
     display: inline-block;
-    color: #d7b065;
+    color: mediumvioletred;
 }
 
 .page h1.entry-title a:after
@@ -716,7 +716,7 @@ body a:hover
     display: block;
     width: 0;
     height: 3px;
-    background-color: #d7b065;
+    background-color: blue;
     transition: width .3s;
     position: absolute;
     left: 0;
@@ -2487,7 +2487,8 @@ li.social-footer a:first-child
   display: none;
   overflow: hidden;
  /* background-color: #f1f1f1;*/
-	color: dimgrey; 
+	/*color: dimgrey; */
+	color: mediumvioletred;
 }
 
 
