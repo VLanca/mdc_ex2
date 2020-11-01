@@ -24,9 +24,9 @@ body a:hover
 
 ::selection 
 {
-    background-color: mediumvioletred;
+    background-color: grey;
 	
-	/*orangered*/
+	/*mediumvioletred*/
 }
 
 .body-wrapper
@@ -2488,7 +2488,7 @@ li.social-footer a:first-child
   overflow: hidden;
  /* background-color: #f1f1f1;*/
 	/*color: dimgrey; */
-	color: mediumvioletred;
+	color: royalblue;
 }
 
 
@@ -2550,12 +2550,14 @@ u.sub{
 /*footer1*/
 
 .footer1 {
-   position: static;
+   position: static;  /*absolute*/
    left: 0;
    bottom: 0;
-   width: 100%;
-   background-color: blue;
-   color: white;
+   width: 100%;  
+   background-color: white;
+   color: blue;
    text-align: center;
-	font-size: 10px;
+   font-size: 12px;
+   line-height: normal;
+	
 }

@@ -22,9 +22,9 @@ body a:hover
 
 ::selection 
 {
-    background-color: mediumvioletred;
+    background-color: grey;
 	
-	/*orangered*/
+	/*mediumvioletred*/
 }
 
 .body-wrapper
@@ -2320,14 +2320,16 @@ u.sub{
 /*footer2*/
 
 .footer1 {
-   position: static;
+   position: static;  /*absolute*/
    left: 0;
    bottom: 0;
-   width: 100%;
-   background-color: blue;
-   color: white;
+   width: 100%;  
+   background-color: white;
+   color: blue;
    text-align: center;
-	font-size: 10px;
+   font-size: 12px;
+   line-height: normal;
+	
 }
 	
 
