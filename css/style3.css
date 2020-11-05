@@ -2488,7 +2488,7 @@ li.social-footer a:first-child
   overflow: hidden;
  /* background-color: #f1f1f1;*/
 	/*color: dimgrey; */
-	color: royalblue;
+	color: black;
 }
 
 
@@ -2541,7 +2541,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 u.sub{
 	text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration-color: black;
 	text-underline-position: under;
 	
 	
